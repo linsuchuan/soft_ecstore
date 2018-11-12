@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <{header}>
+        <link rel="stylesheet" href="images/styles.css" />
+    </head>
+    <body class="index-page">
+        <{require file="block/header.html"}>
+        <div class="center">
+            <div class="section">
+                <div class="page">
+                    <div class="category-placeholder">
+                    </div>
+                    <div class="margin-main">
+                        <{widgets id="main_slide"}>
+                    </div>
+                    <div class="rsidebar">
+                        <div class="gray-box m news">
+                            <{widgets id="news"}>
+                        </div>
+                        <div class="gray-box day-group">
+                            <{widgets id="day_group"}>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="page">
+                    <div class="lsidebar">
+                        <{widgets id="hot_brand"}>
+                    </div>
+                    <div class="rsidebar">
+                        <{widgets id="gift"}>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="page">
+                    <div class="lsidebar">
+                        <div class="blue-box mail-subscribe m">
+                            <{widgets id="mail_subscribe"}>
+                        </div>
+                        <div class="ad-box sub-ad">
+                            <{widgets id="sub_ad"}>
+                        </div>
+                    </div>
+                    
+                    <div class="rsidebar">
+                        <{widgets id="integration"}>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="page">
+                    <div class="left-main">
+                        <{widgets id="goods_floor1"}>
+                    </div>
+                    <div class="rsidebar">
+                        <{widgets id="charts1"}>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="page">
+                    <div class="left-main">
+                        <{widgets id="goods_floor2"}>
+                    </div>
+                    <div class="rsidebar">
+                        <{widgets id="charts2"}>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="page">
+                    <div class="left-main">
+                        <{widgets id="goods_floor3"}>
+                    </div>
+                    <div class="rsidebar">
+                        <{widgets id="charts3"}>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="page">
+                    <div class="left-main">
+                        
+                        <div class="comment-order">
+                            <div class="blue-box comment-center m">
+                                <div class="blue-title">最新用户评论</div>
+                                <div class="blue-content">
+                                    <{widgets id="comment_center"}>
+                                </div>
+                            </div>
+                            <div class="blue-box new-order">
+                                <div class="blue-title">最新订单</div>
+                                <div class="blue-content">
+                                    <{widgets id="new-order"}>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rsidebar">
+                        <div class="red-box help-center m">
+                            <{widgets id="help_center"}>
+                        </div>
+                        <div class="red-box weibo">
+                            <div class="red-title">关注我们</div>
+                            <div class="red-content">
+                                <div class="add-weibo">
+                                    <div class="sina-icon"></div>
+                                    <div class="sina-v">Ecstore</div>
+                                    <a href="http://weibo.com/shopexlic" target="_blank" class="add-weibo-btn"></a>
+                                </div>
+                                <div class="weibo-info">
+                                    想了解ECstore最新的资讯信息，赶紧关注我们吧
+                                    <a href="http://weibo.com/shopexlic" target="_blank">http://weibo.com/shopexlic</a>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="page">
+                    <div class="friend-link">
+                        <{widgets id="friend_link"}>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <{require file="block/footer.html"}>
+    </body>
+</html>

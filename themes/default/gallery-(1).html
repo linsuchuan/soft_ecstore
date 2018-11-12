@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <{header}>
+        <link rel="stylesheet" href="images/styles.css" />
+        <script>
+            var _hmt = _hmt || [];
+            (function() {
+                var hm = document.createElement("script");
+                hm.src = "https://hm.baidu.com/hm.js?f5cb409ea40e7f245139dcc6b88a96fc";
+                var s = document.getElementsByTagName("script")[0]; 
+                s.parentNode.insertBefore(hm, s);
+            })();
+        </script>
+    </head>
+    <body class="gallery-page">
+        <{require file="block/header.html"}>
+        <div class="center">
+            <div class="page">
+                <div class="bread-crumbs">
+                    <{widgets id="bread_crumbs"}>
+                </div>
+                <div class="section">
+                    <div class="lsidebar">
+                        <{widgets id="lsidebar"}>
+                    </div>
+                    <div class="right-main-margin">
+                        <{main}>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <{require file="block/footer.html"}>
+    </body>
+</html>
